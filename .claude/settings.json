@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '\n📋 gstack commands:\n  /browse              - Web browsing\n  /review              - Code review\n  /ship                - Ship code\n  /qa                  - QA testing\n  /plan-ceo-review     - CEO-level plan review\n  /plan-eng-review     - Engineering plan review\n  /retro               - Retrospective\n  /setup-browser-cookies - Set up browser cookies\n'"
+          }
+        ]
+      }
+    ]
+  }
+}
